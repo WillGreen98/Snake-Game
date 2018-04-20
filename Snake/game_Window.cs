@@ -75,8 +75,7 @@ namespace Snake
             }
             panel1.Refresh();
         }
-
-
+        
         private void game_Window_KeyUp(object sender, KeyEventArgs e)
         {
             if ((e.KeyCode == Keys.W || e.KeyCode == Keys.Up) && snake_Direction != 1) { snake_Direction = 3; }
